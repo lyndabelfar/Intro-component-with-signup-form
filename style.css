@@ -1,0 +1,89 @@
+body{
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    margin: 20px;
+    overflow: hidden;
+}
+h1{
+    font-size: 2.5rem;
+}
+
+.decriptive-p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.st-span{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.price-box{
+    background: hsl(248, 32%, 49%);
+    width: 70%;
+    border:  1px solid hsl(248, 32%, 49%);
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 73%;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.subscribtion-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 3px 5px #8888884d;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.inputs{
+    padding: 15px;
+    width: 70%;
+    margin: 10px;
+    border: solid rgba(128, 128, 128, 0.411) 1px;
+    border-radius: 7px;
+}
+.submit-btn{
+    width:76%;
+    background: hsl(154, 59%, 51%);
+    text-align: center;
+    color: white;
+    font-size: 1.125rem;
+    padding: 10px;
+    border: 1px solid hsl(154, 59%, 51%);
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 1px 2px #8888884d;
+    text-transform: capitalize;
+}
+.conditions-p{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: small;
+}
+.span-2{
+    color: hsl(0, 100%, 74%);
+}
